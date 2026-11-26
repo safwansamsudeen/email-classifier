@@ -3,7 +3,7 @@ from time import time
 import requests
 
 # Set D1_BACKEND="local" (Ollama) or "liquid" (hosted API)
-BACKEND = os.getenv("D1_BACKEND", "local").lower()
+BACKEND = os.getenv("D1_BACKEND", "liquid").lower()
 
 CONFIG = {
     "local": {
